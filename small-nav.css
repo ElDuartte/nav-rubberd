@@ -1,0 +1,37 @@
+.small-nav {
+  height: 80px;
+  background-color: white;
+  border: 5px solid black;
+  display: display;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.small-nav-orange {
+  width: 15%;
+  height: 80px;
+  background-color: #ff7742;
+  border-right: 5px solid black;
+}
+
+.small-nav-orange-r {
+  width: 15%;
+  height: 80px;
+  background-color: #ff7742;
+  border-left: 5px solid black;
+}
+
+.small-nav-buttons {
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+.small-nav-button-link {
+  font-size: 30px;
+  /* line-height: 45px; */
+}
